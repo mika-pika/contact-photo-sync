@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D28029885895E07AC2C9CC0 /* Pods_Contact_Photo_Sync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB03FF84A9018225DECCE34 /* Pods_Contact_Photo_Sync.framework */; };
+		B68259AAFC2E26355EFAA625 /* Pods_Contact_Photo_Sync_Contact_Photo_SyncUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB943B586D43A7260AAB40D7 /* Pods_Contact_Photo_Sync_Contact_Photo_SyncUITests.framework */; };
+		B85C4E27887AC133970593A4 /* Pods_Contact_Photo_SyncTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3409A59BD7391FA8B7B5751 /* Pods_Contact_Photo_SyncTests.framework */; };
+		F175E69624D3E7F600DBDC68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F175E69524D3E7F600DBDC68 /* AppDelegate.swift */; };
+		F175E69824D3E7F600DBDC68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F175E69724D3E7F600DBDC68 /* SceneDelegate.swift */; };
+		F175E69A24D3E7F600DBDC68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F175E69924D3E7F600DBDC68 /* ViewController.swift */; };
+		F175E69F24D3E7FB00DBDC68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F175E69E24D3E7FB00DBDC68 /* Assets.xcassets */; };
+		F175E6A224D3E7FB00DBDC68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F175E6A024D3E7FB00DBDC68 /* LaunchScreen.storyboard */; };
+		F175E6AD24D3E7FC00DBDC68 /* Contact_Photo_SyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F175E6AC24D3E7FC00DBDC68 /* Contact_Photo_SyncTests.swift */; };
+		F175E6B824D3E7FC00DBDC68 /* Contact_Photo_SyncUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F175E6B724D3E7FC00DBDC68 /* Contact_Photo_SyncUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F175E6A924D3E7FC00DBDC68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F175E68A24D3E7F600DBDC68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F175E69124D3E7F600DBDC68;
+			remoteInfo = "Contact Photo Sync";
+		};
+		F175E6B424D3E7FC00DBDC68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F175E68A24D3E7F600DBDC68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F175E69124D3E7F600DBDC68;
+			remoteInfo = "Contact Photo Sync";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B3E3FCFB315694E554410D /* Pods-Contact Photo SyncTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contact Photo SyncTests.release.xcconfig"; path = "Target Support Files/Pods-Contact Photo SyncTests/Pods-Contact Photo SyncTests.release.xcconfig"; sourceTree = "<group>"; };
+		13AE0194B68A0A7F589BAAE1 /* Pods-Contact Photo Sync.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contact Photo Sync.debug.xcconfig"; path = "Target Support Files/Pods-Contact Photo Sync/Pods-Contact Photo Sync.debug.xcconfig"; sourceTree = "<group>"; };
+		419A47909F2970251E30E971 /* Pods-Contact Photo Sync-Contact Photo SyncUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contact Photo Sync-Contact Photo SyncUITests.release.xcconfig"; path = "Target Support Files/Pods-Contact Photo Sync-Contact Photo SyncUITests/Pods-Contact Photo Sync-Contact Photo SyncUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5CF360A0FEBD30CDC14D52B4 /* Pods-Contact Photo Sync-Contact Photo SyncUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contact Photo Sync-Contact Photo SyncUITests.debug.xcconfig"; path = "Target Support Files/Pods-Contact Photo Sync-Contact Photo SyncUITests/Pods-Contact Photo Sync-Contact Photo SyncUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		80328CF7701BB45FED2E9924 /* Pods-Contact Photo SyncTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contact Photo SyncTests.debug.xcconfig"; path = "Target Support Files/Pods-Contact Photo SyncTests/Pods-Contact Photo SyncTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2F481C9DD436CE55986CAA9 /* Pods-Contact Photo Sync.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contact Photo Sync.release.xcconfig"; path = "Target Support Files/Pods-Contact Photo Sync/Pods-Contact Photo Sync.release.xcconfig"; sourceTree = "<group>"; };
+		CBB03FF84A9018225DECCE34 /* Pods_Contact_Photo_Sync.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Contact_Photo_Sync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3409A59BD7391FA8B7B5751 /* Pods_Contact_Photo_SyncTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Contact_Photo_SyncTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB943B586D43A7260AAB40D7 /* Pods_Contact_Photo_Sync_Contact_Photo_SyncUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Contact_Photo_Sync_Contact_Photo_SyncUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F175E69224D3E7F600DBDC68 /* Contact Photo Sync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contact Photo Sync.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F175E69524D3E7F600DBDC68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F175E69724D3E7F600DBDC68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F175E69924D3E7F600DBDC68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F175E69E24D3E7FB00DBDC68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F175E6A124D3E7FB00DBDC68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F175E6A324D3E7FB00DBDC68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F175E6A824D3E7FC00DBDC68 /* Contact Photo SyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Contact Photo SyncTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F175E6AC24D3E7FC00DBDC68 /* Contact_Photo_SyncTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact_Photo_SyncTests.swift; sourceTree = "<group>"; };
+		F175E6AE24D3E7FC00DBDC68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F175E6B324D3E7FC00DBDC68 /* Contact Photo SyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Contact Photo SyncUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F175E6B724D3E7FC00DBDC68 /* Contact_Photo_SyncUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact_Photo_SyncUITests.swift; sourceTree = "<group>"; };
+		F175E6B924D3E7FC00DBDC68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F175E6C524D3F57400DBDC68 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F175E68F24D3E7F600DBDC68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D28029885895E07AC2C9CC0 /* Pods_Contact_Photo_Sync.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F175E6A524D3E7FC00DBDC68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85C4E27887AC133970593A4 /* Pods_Contact_Photo_SyncTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F175E6B024D3E7FC00DBDC68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68259AAFC2E26355EFAA625 /* Pods_Contact_Photo_Sync_Contact_Photo_SyncUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		823E98A460895B23FF34E63F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBB03FF84A9018225DECCE34 /* Pods_Contact_Photo_Sync.framework */,
+				EB943B586D43A7260AAB40D7 /* Pods_Contact_Photo_Sync_Contact_Photo_SyncUITests.framework */,
+				E3409A59BD7391FA8B7B5751 /* Pods_Contact_Photo_SyncTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96F8DD6FBE5142260943242D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13AE0194B68A0A7F589BAAE1 /* Pods-Contact Photo Sync.debug.xcconfig */,
+				C2F481C9DD436CE55986CAA9 /* Pods-Contact Photo Sync.release.xcconfig */,
+				5CF360A0FEBD30CDC14D52B4 /* Pods-Contact Photo Sync-Contact Photo SyncUITests.debug.xcconfig */,
+				419A47909F2970251E30E971 /* Pods-Contact Photo Sync-Contact Photo SyncUITests.release.xcconfig */,
+				80328CF7701BB45FED2E9924 /* Pods-Contact Photo SyncTests.debug.xcconfig */,
+				00B3E3FCFB315694E554410D /* Pods-Contact Photo SyncTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F175E68924D3E7F600DBDC68 = {
+			isa = PBXGroup;
+			children = (
+				F175E6C524D3F57400DBDC68 /* README.md */,
+				F175E69424D3E7F600DBDC68 /* Contact Photo Sync */,
+				F175E6AB24D3E7FC00DBDC68 /* Contact Photo SyncTests */,
+				F175E6B624D3E7FC00DBDC68 /* Contact Photo SyncUITests */,
+				F175E69324D3E7F600DBDC68 /* Products */,
+				96F8DD6FBE5142260943242D /* Pods */,
+				823E98A460895B23FF34E63F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F175E69324D3E7F600DBDC68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F175E69224D3E7F600DBDC68 /* Contact Photo Sync.app */,
+				F175E6A824D3E7FC00DBDC68 /* Contact Photo SyncTests.xctest */,
+				F175E6B324D3E7FC00DBDC68 /* Contact Photo SyncUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F175E69424D3E7F600DBDC68 /* Contact Photo Sync */ = {
+			isa = PBXGroup;
+			children = (
+				F175E69524D3E7F600DBDC68 /* AppDelegate.swift */,
+				F175E69724D3E7F600DBDC68 /* SceneDelegate.swift */,
+				F175E69924D3E7F600DBDC68 /* ViewController.swift */,
+				F175E69E24D3E7FB00DBDC68 /* Assets.xcassets */,
+				F175E6A024D3E7FB00DBDC68 /* LaunchScreen.storyboard */,
+				F175E6A324D3E7FB00DBDC68 /* Info.plist */,
+			);
+			path = "Contact Photo Sync";
+			sourceTree = "<group>";
+		};
+		F175E6AB24D3E7FC00DBDC68 /* Contact Photo SyncTests */ = {
+			isa = PBXGroup;
+			children = (
+				F175E6AC24D3E7FC00DBDC68 /* Contact_Photo_SyncTests.swift */,
+				F175E6AE24D3E7FC00DBDC68 /* Info.plist */,
+			);
+			path = "Contact Photo SyncTests";
+			sourceTree = "<group>";
+		};
+		F175E6B624D3E7FC00DBDC68 /* Contact Photo SyncUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F175E6B724D3E7FC00DBDC68 /* Contact_Photo_SyncUITests.swift */,
+				F175E6B924D3E7FC00DBDC68 /* Info.plist */,
+			);
+			path = "Contact Photo SyncUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F175E69124D3E7F600DBDC68 /* Contact Photo Sync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F175E6BC24D3E7FC00DBDC68 /* Build configuration list for PBXNativeTarget "Contact Photo Sync" */;
+			buildPhases = (
+				9104075B140CB060D5057B97 /* [CP] Check Pods Manifest.lock */,
+				F175E68E24D3E7F600DBDC68 /* Sources */,
+				F175E68F24D3E7F600DBDC68 /* Frameworks */,
+				F175E69024D3E7F600DBDC68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Contact Photo Sync";
+			productName = "Contact Photo Sync";
+			productReference = F175E69224D3E7F600DBDC68 /* Contact Photo Sync.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F175E6A724D3E7FC00DBDC68 /* Contact Photo SyncTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F175E6BF24D3E7FC00DBDC68 /* Build configuration list for PBXNativeTarget "Contact Photo SyncTests" */;
+			buildPhases = (
+				6EB2B08667BB449BA7E6D456 /* [CP] Check Pods Manifest.lock */,
+				F175E6A424D3E7FC00DBDC68 /* Sources */,
+				F175E6A524D3E7FC00DBDC68 /* Frameworks */,
+				F175E6A624D3E7FC00DBDC68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F175E6AA24D3E7FC00DBDC68 /* PBXTargetDependency */,
+			);
+			name = "Contact Photo SyncTests";
+			productName = "Contact Photo SyncTests";
+			productReference = F175E6A824D3E7FC00DBDC68 /* Contact Photo SyncTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F175E6B224D3E7FC00DBDC68 /* Contact Photo SyncUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F175E6C224D3E7FC00DBDC68 /* Build configuration list for PBXNativeTarget "Contact Photo SyncUITests" */;
+			buildPhases = (
+				DCC55FC5110C71CE2F829C9D /* [CP] Check Pods Manifest.lock */,
+				F175E6AF24D3E7FC00DBDC68 /* Sources */,
+				F175E6B024D3E7FC00DBDC68 /* Frameworks */,
+				F175E6B124D3E7FC00DBDC68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F175E6B524D3E7FC00DBDC68 /* PBXTargetDependency */,
+			);
+			name = "Contact Photo SyncUITests";
+			productName = "Contact Photo SyncUITests";
+			productReference = F175E6B324D3E7FC00DBDC68 /* Contact Photo SyncUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F175E68A24D3E7F600DBDC68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = mikapika;
+				TargetAttributes = {
+					F175E69124D3E7F600DBDC68 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					F175E6A724D3E7FC00DBDC68 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = F175E69124D3E7F600DBDC68;
+					};
+					F175E6B224D3E7FC00DBDC68 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = F175E69124D3E7F600DBDC68;
+					};
+				};
+			};
+			buildConfigurationList = F175E68D24D3E7F600DBDC68 /* Build configuration list for PBXProject "Contact Photo Sync" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F175E68924D3E7F600DBDC68;
+			productRefGroup = F175E69324D3E7F600DBDC68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F175E69124D3E7F600DBDC68 /* Contact Photo Sync */,
+				F175E6A724D3E7FC00DBDC68 /* Contact Photo SyncTests */,
+				F175E6B224D3E7FC00DBDC68 /* Contact Photo SyncUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F175E69024D3E7F600DBDC68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F175E6A224D3E7FB00DBDC68 /* LaunchScreen.storyboard in Resources */,
+				F175E69F24D3E7FB00DBDC68 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F175E6A624D3E7FC00DBDC68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F175E6B124D3E7FC00DBDC68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EB2B08667BB449BA7E6D456 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Contact Photo SyncTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9104075B140CB060D5057B97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Contact Photo Sync-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCC55FC5110C71CE2F829C9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Contact Photo Sync-Contact Photo SyncUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F175E68E24D3E7F600DBDC68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F175E69A24D3E7F600DBDC68 /* ViewController.swift in Sources */,
+				F175E69624D3E7F600DBDC68 /* AppDelegate.swift in Sources */,
+				F175E69824D3E7F600DBDC68 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F175E6A424D3E7FC00DBDC68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F175E6AD24D3E7FC00DBDC68 /* Contact_Photo_SyncTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F175E6AF24D3E7FC00DBDC68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F175E6B824D3E7FC00DBDC68 /* Contact_Photo_SyncUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F175E6AA24D3E7FC00DBDC68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F175E69124D3E7F600DBDC68 /* Contact Photo Sync */;
+			targetProxy = F175E6A924D3E7FC00DBDC68 /* PBXContainerItemProxy */;
+		};
+		F175E6B524D3E7FC00DBDC68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F175E69124D3E7F600DBDC68 /* Contact Photo Sync */;
+			targetProxy = F175E6B424D3E7FC00DBDC68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F175E6A024D3E7FB00DBDC68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F175E6A124D3E7FB00DBDC68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F175E6BA24D3E7FC00DBDC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F175E6BB24D3E7FC00DBDC68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F175E6BD24D3E7FC00DBDC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13AE0194B68A0A7F589BAAE1 /* Pods-Contact Photo Sync.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JK77YAHMME;
+				INFOPLIST_FILE = "Contact Photo Sync/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikapika.Contact-Photo-Sync";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F175E6BE24D3E7FC00DBDC68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2F481C9DD436CE55986CAA9 /* Pods-Contact Photo Sync.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JK77YAHMME;
+				INFOPLIST_FILE = "Contact Photo Sync/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikapika.Contact-Photo-Sync";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F175E6C024D3E7FC00DBDC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80328CF7701BB45FED2E9924 /* Pods-Contact Photo SyncTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JK77YAHMME;
+				INFOPLIST_FILE = "Contact Photo SyncTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikapika.Contact-Photo-SyncTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contact Photo Sync.app/Contact Photo Sync";
+			};
+			name = Debug;
+		};
+		F175E6C124D3E7FC00DBDC68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00B3E3FCFB315694E554410D /* Pods-Contact Photo SyncTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JK77YAHMME;
+				INFOPLIST_FILE = "Contact Photo SyncTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikapika.Contact-Photo-SyncTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contact Photo Sync.app/Contact Photo Sync";
+			};
+			name = Release;
+		};
+		F175E6C324D3E7FC00DBDC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CF360A0FEBD30CDC14D52B4 /* Pods-Contact Photo Sync-Contact Photo SyncUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JK77YAHMME;
+				INFOPLIST_FILE = "Contact Photo SyncUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikapika.Contact-Photo-SyncUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Contact Photo Sync";
+			};
+			name = Debug;
+		};
+		F175E6C424D3E7FC00DBDC68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 419A47909F2970251E30E971 /* Pods-Contact Photo Sync-Contact Photo SyncUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JK77YAHMME;
+				INFOPLIST_FILE = "Contact Photo SyncUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikapika.Contact-Photo-SyncUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Contact Photo Sync";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F175E68D24D3E7F600DBDC68 /* Build configuration list for PBXProject "Contact Photo Sync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F175E6BA24D3E7FC00DBDC68 /* Debug */,
+				F175E6BB24D3E7FC00DBDC68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F175E6BC24D3E7FC00DBDC68 /* Build configuration list for PBXNativeTarget "Contact Photo Sync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F175E6BD24D3E7FC00DBDC68 /* Debug */,
+				F175E6BE24D3E7FC00DBDC68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F175E6BF24D3E7FC00DBDC68 /* Build configuration list for PBXNativeTarget "Contact Photo SyncTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F175E6C024D3E7FC00DBDC68 /* Debug */,
+				F175E6C124D3E7FC00DBDC68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F175E6C224D3E7FC00DBDC68 /* Build configuration list for PBXNativeTarget "Contact Photo SyncUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F175E6C324D3E7FC00DBDC68 /* Debug */,
+				F175E6C424D3E7FC00DBDC68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F175E68A24D3E7F600DBDC68 /* Project object */;
+}
